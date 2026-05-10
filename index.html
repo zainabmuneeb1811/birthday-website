@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday My Love Muneeb Meri Jan ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Music -->
+  <audio id="bgMusic" loop>
+    <source src="song.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Floating Hearts -->
+  <div class="hearts"></div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <h1>🎂 Happy Birthday My Husband ❤️</h1>
+    <p class="subtitle">You are my favorite person in the world ,my peace , my home💖</p>
+
+    <button onclick="startSurprise()">🎁 Open Your Surprise</button>
+
+    <!-- Photos -->
+    <div class="gallery hidden" id="gallery">
+      <img src="photo1.jpg" alt="Our Love1">
+      <img src="photo2.jpg" alt="Our Happiness 2">
+      <img src="photo3.jpg" alt="Our Lovely Memories 3">
+    </div>
+
+    <!-- Videos -->
+    <div class="videos hidden" id="videos">
+      <video controls>
+        <source src="video1.mp4" type="video/mp4">
+      </video>
+
+      <video controls>
+        <source src="video2.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <!-- Hidden Message Button -->
+    <button class="hidden" id="secretBtn" onclick="showSecret()">
+      💌 Open Hidden Message
+    </button>
+
+    <!-- Hidden Message -->
+    <div class="secret hidden" id="secretMessage">
+      My dearest husband ❤️<br><br>
+      Every day with you is my favorite day.
+      You are my home, my happiness, and my forever.
+      Happy Birthday, my love Mirha ke Baba. 🎂💖
+    </div>
+  </div>
+
+  <!-- Confetti -->
+  <div class="confetti hidden" id="confetti">🎉 🎊 🎉 🎊 🎉</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
